@@ -17,7 +17,9 @@
     "prettier:diff": "prettier -l 'src/**/*.{ts,tsx,js,jsx}'",
     "prepush": "yarn prettier:diff",
     "precommit": "pretty-quick --staged && yarn tslint",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "build": "echo nothing to build...",
+    "test": "echo no tests..."
   },
   "keywords": [],
   "dependencies": {},
