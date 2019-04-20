@@ -1,12 +1,12 @@
 {
-  "name": "emoji-json",
+  "name": "emoji-json-list",
   "version": "1.0.0",
   "author": {
     "name": "streamich",
     "url": "https://github.com/streamich"
   },
-  "homepage": "https://github.com/streamich/emoji-json",
-  "repository": "streamich/emoji-json",
+  "homepage": "https://github.com/streamich/emoji-json-list",
+  "repository": "streamich/emoji-json-list",
   "license": "Unlicense",
   "main": "index.js",
   "files": [

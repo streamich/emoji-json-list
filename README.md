@@ -1,4 +1,4 @@
-# emoji-json
+# emoji-json-list
 
 Just a list of `[emoji, alias, unicode]` tuples.
 
@@ -6,14 +6,14 @@ Just a list of `[emoji, alias, unicode]` tuples.
 ## Installation
 
 ```
-npm i emoji-json
+npm i emoji-json-list
 ```
 
 
 ## Usage
 
 ```js
-const {list} = require('emoji-json');
+const {list} = require('emoji-json-list');
 
 console.log(list[0]);
 console.log(list[1]);
