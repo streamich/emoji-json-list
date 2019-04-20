@@ -1,7 +1,6 @@
 {
   "name": "emoji-json",
   "version": "0.0.1",
-  "description": "",
   "author": {
     "name": "streamich",
     "url": "https://github.com/streamich"
@@ -9,9 +8,6 @@
   "homepage": "https://github.com/streamich/emoji-json",
   "repository": "streamich/emoji-json",
   "license": "Unlicense",
-  "engines": {
-    "node": ">=6.9"
-  },
   "main": "index.js",
   "files": [
     "index.js"
