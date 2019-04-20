@@ -1,0 +1,53 @@
+{
+  "name": "emoji-json",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "streamich",
+    "url": "https://github.com/streamich"
+  },
+  "homepage": "https://github.com/streamich/emoji-json",
+  "repository": "streamich/emoji-json",
+  "license": "Unlicense",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prettier": "prettier --ignore-path .gitignore --write 'src/**/*.{ts,tsx,js,jsx}'",
+    "prettier:diff": "prettier -l 'src/**/*.{ts,tsx,js,jsx}'",
+    "prepush": "yarn prettier:diff",
+    "precommit": "pretty-quick --staged && yarn tslint",
+    "release": "semantic-release"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/npm": "^5.1.4",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0",
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "verifyConditions": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
