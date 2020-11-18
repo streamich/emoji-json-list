@@ -29,7 +29,7 @@
     "@semantic-release/npm": "^5.1.4",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^17.2.3"
   },
   "release": {
     "verifyConditions": [
